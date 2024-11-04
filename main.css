@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #000;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #111;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.header div {
+    color: white;
+}
+
+.position-section {
+    background-color: #222;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.position-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding: 50px;
+}
+
+.relative-box, .absolute-box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+.relative-box {
+    background-color: green;
+    position: relative;
+    color: white;
+}
+
+.absolute-box {
+    background-color: red;
+    position: absolute;
+}
+
+.absolute-left {
+    top: 0;
+    left: 50px;
+}
+
+.absolute-center {
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.absolute-right {
+    top: 0;
+    right: 50px;
+}
+
+
+.info-section {
+    background-color: #111;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.info-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.info-box {
+    width: 200px;
+    padding: 20px;
+    background-color: #8B0000; 
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+}
+
+
+.footer {
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+}
